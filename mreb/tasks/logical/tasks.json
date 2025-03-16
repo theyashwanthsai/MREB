@@ -1,0 +1,79 @@
+{
+    "tasks": [
+        {
+            "id": "L-1",
+            "category": "logical",
+            "question": "In a sequence: 3, 15, 35, 63, ?, 143. What number should replace the question mark?",
+            "options": {
+                "a": "99",
+                "b": "98",
+                "c": "101",
+                "d": "95"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-2",
+            "category": "logical",
+            "question": "If all Blicks are Flocks, and some Flocks are Crocks, which statement must be true?",
+            "options": {
+                "a": "All Crocks are Blicks",
+                "b": "Some Blicks are Crocks",
+                "c": "No Blicks are Crocks",
+                "d": "All Flocks are Blicks"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-3",
+            "category": "logical",
+            "question": "In a strange country, Red means stop, Green means wait, and Yellow means go. If international colors are reversed in meaning, and someone sees a Yellow light interpreted as Red, what should they do?",
+            "options": {
+                "a": "Wait",
+                "b": "Go",
+                "c": "Stop",
+                "d": "There's insufficient information"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-4",
+            "category": "logical",
+            "question": "Five friends sit in a row. A sits two places right of B. C sits immediate left of D. E sits immediate right of B. D sits at one of the ends. Who sits in the middle?",
+            "options": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "E"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-5",
+            "category": "logical",
+            "question": "If 'ALGORITHM' is coded as '1-12-7-15-18-9-20-8-13', how would 'QUANTUM' be coded?",
+            "options": {
+                "a": "17-21-1-14-20-21-13",
+                "b": "17-21-1-14-20-13-21",
+                "c": "17-21-1-13-20-21-13",
+                "d": "17-21-1-14-21-20-13"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        }
+    ]
+}
