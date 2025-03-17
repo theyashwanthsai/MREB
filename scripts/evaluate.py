@@ -2,26 +2,28 @@ from utils import *
 
 # models_to_test = ["llama3.2:1b"] # testing
 models_to_test = ["llama3.2:1b", "llama3.2:3b", "phi3.5:latest", "deepseek-r1:8b"]
-json_file_path = "../mreb/tasks/ethics/tasks.json"  
+ethics_file_path = "../mreb/tasks/ethics/tasks.json"
+coding_file_path = "../mreb/tasks/code/tasks.json"
+logic_file_path = "../mreb/tasks/logical/tasks.json"
 
 def main():
-    questions = load_questions(json_file_path)
-    if not questions:
-        return
+    # Run evaluation for ethics (MCQ) questions
+    print("\n=== EVALUATING ETHICS QUESTIONS ===")
+    ethics_questions = load_questions(ethics_file_path)
+    if ethics_questions:
+        evaluate_questions(ethics_questions, models_to_test)
 
-    results = initialize_results(models_to_test)
-
-    for question in questions:
-        prompt = generate_question_prompt(question)
-        q_id = question["id"]
-        correct_answer = question["answer"]
-
-        for model in models_to_test:
-            model_answer = get_model_answer(model, prompt, q_id)
-            if model_answer is not None:
-                update_results(results, model, question, model_answer, correct_answer)
-
-    print_evaluation_results(results)
+    # Run evaluation for ethics (MCQ) questions
+    print("\n=== EVALUATING LOGICAL QUESTIONS ===")
+    logic_questions = load_questions(logic_file_path)
+    if logic_questions:
+        evaluate_questions(logic_questions, models_to_test)
+    
+    # Run evaluation for coding questions
+    print("\n=== EVALUATING CODING QUESTIONS ===")
+    coding_questions = load_questions(coding_file_path)
+    if coding_questions:
+        evaluate_questions(coding_questions, models_to_test)
 
 if __name__ == "__main__":
     main()
