@@ -2,7 +2,7 @@
 Multimodal Reasoning and Ethics Benchmark (MREB) is an open source benchmark designed to assess the cross-domain capabilities of AI models. Currently I am comparing local llms via ollama
 
 ### Resources:
-- Blog post: tbd
+- Blog post: [Link](saiyashwanth.tech/mreb)
 - Youtube Video: tbd 
 
 
