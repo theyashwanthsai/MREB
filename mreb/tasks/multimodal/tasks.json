@@ -1,0 +1,79 @@
+{
+    "tasks": [
+        {
+            "id": "MM-1",
+            "category": "multimodal",
+            "question": "What is the most likely object shown in this image?",
+            "options": {
+                "a": "A bicycle wheel",
+                "b": "A clock face",
+                "c": "A manhole cover",
+                "d": "A pizza cutter"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": "../mreb/images/mm1.jpeg"
+            }
+        },
+        {
+            "id": "MM-2",
+            "category": "multimodal",
+            "question": "What is the primary activity occurring in this scene?",
+            "options": {
+                "a": "A street parade",
+                "b": "A rainy-day market",
+                "c": "A flash mob performance",
+                "d": "A post-storm cleanup"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": "../mreb/images/mm2.jpg"
+            }
+        },
+        {
+            "id": "MM-3",
+            "category": "multimodal",
+            "question": "Which condition does this chest X-ray most likely indicate?",
+            "options": {
+                "a": "Pneumonia",
+                "b": "Pulmonary edema",
+                "c": "Lung cancer",
+                "d": "Asthma attack"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": "../mreb/images/mm3.jpg"
+            }
+        },
+        {
+            "id": "MM-4",
+            "category": "multimodal",
+            "question": "What geographic feature is depicted in this satellite image?",
+            "options": {
+                "a": "The Amazon Rainforest",
+                "b": "The Nile River Valley",
+                "c": "The Grand Canyon",
+                "d": "The Great Barrier Reef"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": "../mreb/images/mm4.jpg"
+            }
+        },
+        {
+            "id": "MM-5",
+            "category": "multimodal",
+            "question": "What emotion is most strongly conveyed by this artwork?",
+            "options": {
+                "a": "Calmness",
+                "b": "Anxiety",
+                "c": "Joy",
+                "d": "Nostalgia"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": "../mreb/images/mm5.jpeg"
+            }
+        }
+    ]
+}

@@ -1,10 +1,14 @@
 from utils import *
 
-# models_to_test = ["llama3.2:1b"] # testing
+# models_to_test = ["gemma3"] # testing
 models_to_test = ["llama3.2:1b", "llama3.2:3b", "phi3.5:latest", "deepseek-r1:8b"]
+
+## Todo: Add a way to test only text models and multimodal models at the same time.
+
 ethics_file_path = "../mreb/tasks/ethics/tasks.json"
 coding_file_path = "../mreb/tasks/code/tasks.json"
 logic_file_path = "../mreb/tasks/logical/tasks.json"
+multimodal_file_path = "../mreb/tasks/multimodal/tasks.json"
 
 def main():
     # Run evaluation for ethics (MCQ) questions
@@ -24,6 +28,12 @@ def main():
     coding_questions = load_questions(coding_file_path)
     if coding_questions:
         evaluate_questions(coding_questions, models_to_test)
+
+    # Run evaluation for multimodal questions
+    print("\n=== EVALUATING MULTIMODAL QUESTIONS ===")
+    multimodal_questions = load_questions(multimodal_file_path)
+    if multimodal_questions:
+        evaluate_questions(multimodal_questions, models_to_test)
 
 if __name__ == "__main__":
     main()

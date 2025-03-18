@@ -7,14 +7,20 @@ from typing import Dict, List, Any, Tuple
 class ModelResponse(BaseModel):
     answer: str
 
-def get_structured_response(model_name, prompt, is_code=False):
+def get_structured_response(model_name, prompt, is_code=False, image_path=None):
     try:
+        message = {'role': 'user', 'content': prompt}
+        if image_path:
+            message['images'] = [image_path]
+
         response = chat(
-            messages=[{'role': 'user', 'content': prompt}],
+            messages=[message],
             model=model_name,
             format=ModelResponse.model_json_schema(),
         )
+        print(response)
         validated = ModelResponse.model_validate_json(response['message']['content'])
+        print(validated)
         if is_code:
             return validated.answer  # Return full code for code tasks
         return validated.answer.lower() # Return for mcq
@@ -52,9 +58,9 @@ def generate_question_prompt(question):
             "Please respond with ONLY the answer letter in JSON format: {'answer': ''}"
         )
 
-def get_model_answer(model, prompt, question_id, is_code=False):
+def get_model_answer(model, prompt, question_id, image_path, is_code=False):
     try:
-        answer = get_structured_response(model, prompt, is_code)
+        answer = get_structured_response(model, prompt, is_code, image_path)
         return answer
     except Exception as e:
         print(f"Error processing {model} for {question_id}: {str(e)[:50]}")
@@ -165,13 +171,15 @@ def evaluate_questions(questions, models):
     for question in questions:
         q_id = question["id"]
         is_coding_task = question.get("category") == "coding"
-        
+        is_multimodal = question.get("category") == "multimodal"
+
         prompt = generate_question_prompt(question)
         correct_answer = question.get("answer") if not is_coding_task else None
+        image_path = question.get("metadata", {}).get("imagePath") if is_multimodal else None
 
         for model in models:
             print(f"\nProcessing {q_id} with {model}...")
-            model_answer = get_model_answer(model, prompt, q_id, is_code=is_coding_task)
+            model_answer = get_model_answer(model, prompt, q_id, is_code=is_coding_task, image_path=image_path)
             if model_answer is not None:
                 update_results(results, model, question, model_answer, correct_answer)
 
