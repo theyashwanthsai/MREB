@@ -74,6 +74,306 @@
             "metadata": {
                 "imagePath": ""
             }
+        },
+        {
+            "id": "L-6",
+            "category": "logical",
+            "question": "What comes next in the sequence? 2, 5, 11, 23, 47, ?",
+            "options": {
+                "a": "95",
+                "b": "93",
+                "c": "97",
+                "d": "91"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-7",
+            "category": "logical",
+            "question": "Premises: All fruits are edible. No edible items are toxic. Which conclusion must be true?",
+            "options": {
+                "a": "All fruits are non-toxic",
+                "b": "Some toxic items are fruits",
+                "c": "All toxic items are fruits",
+                "d": "No fruits are toxic"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-8",
+            "category": "logical",
+            "question": "In a game, 'Red' means 'start,' 'Blue' means 'stop,' and 'Green' means 'reverse.' If rules invert globally, what does 'Blue' now mean?",
+            "options": {
+                "a": "Start",
+                "b": "Stop",
+                "c": "Reverse",
+                "d": "Invalid"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-9",
+            "category": "logical",
+            "question": "Five friends (P, Q, R, S, T) sit in a row. Q is between P and R. S is two left of T. P is first. Who is left of T?",
+            "options": {
+                "a": "P",
+                "b": "Q",
+                "c": "R",
+                "d": "S"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-10",
+            "category": "logical",
+            "question": "If 'SUN' is coded as 'TVW,' what is the code for 'MOON'?",
+            "options": {
+                "a": "NPPO",
+                "b": "NPWQ",
+                "c": "NPQW",
+                "d": "NPPQ"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-11",
+            "category": "logical",
+            "question": "Sequence: 1, 4, 9, 16, 25, ?, 49. What is next?",
+            "options": {
+                "a": "36",
+                "b": "35",
+                "c": "37",
+                "d": "30"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-12",
+            "category": "logical",
+            "question": "Premises: All dogs are mammals. Some mammals are reptiles. Which conclusion is possible but not certain?",
+            "options": {
+                "a": "All reptiles are dogs",
+                "b": "Some dogs are reptiles",
+                "c": "No dogs are reptiles",
+                "d": "Some mammals are dogs"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-13",
+            "category": "logical",
+            "question": "If 'COLD' = '3-15-12-4', what is the code for 'WARM'?",
+            "options": {
+                "a": "23-1-18-13",
+                "b": "23-1-18-17",
+                "c": "23-1-18-3",
+                "d": "23-1-18-12"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-14",
+            "category": "logical",
+            "question": "Five people (F, G, H, I, J). G is third left of I. F is right of H. J is at an end. Who is in the middle?",
+            "options": {
+                "a": "G",
+                "b": "H",
+                "c": "I",
+                "d": "F"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-15",
+            "category": "logical",
+            "question": "Sequence: 3, 6, 12, 24, ?, 96. What replaces the question mark?",
+            "options": {
+                "a": "48",
+                "b": "50",
+                "c": "36",
+                "d": "60"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-16",
+            "category": "logical",
+            "question": "Premises: All roses are flowers. No flowers are shrubs. What can be concluded?",
+            "options": {
+                "a": "All roses are shrubs",
+                "b": "Some roses are not shrubs",
+                "c": "No roses are shrubs",
+                "d": "Some shrubs are roses"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-17",
+            "category": "logical",
+            "question": "If 'EAST' = '5-1-19-20', what is the code for 'WEST'?",
+            "options": {
+                "a": "23-5-19-20",
+                "b": "23-5-19-19",
+                "c": "23-5-9-20",
+                "d": "23-5-19-2"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-18",
+            "category": "logical",
+            "question": "Five siblings (K, L, M, N, O). L is between K and M. N is second right of O. O is not at an end. Who is rightmost?",
+            "options": {
+                "a": "K",
+                "b": "M",
+                "c": "N",
+                "d": "O"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-19",
+            "category": "logical",
+            "question": "Sequence: 1, 3, 7, 15, 31, ?. What comes next?",
+            "options": {
+                "a": "63",
+                "b": "61",
+                "c": "65",
+                "d": "59"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-20",
+            "category": "logical",
+            "question": "Premises: Some birds are cats. All cats are mammals. Which must be true?",
+            "options": {
+                "a": "Some birds are mammals",
+                "b": "All mammals are birds",
+                "c": "No birds are mammals",
+                "d": "Some mammals are not birds"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-21",
+            "category": "logical",
+            "question": "If 'BEAUTY' = '2-5-1-21-20-25', what is 'BEAUTIFUL'?",
+            "options": {
+                "a": "2-5-1-21-20-6-21-12",
+                "b": "2-5-1-21-20-6-12-21",
+                "c": "2-5-1-21-20-6-21-13",
+                "d": "2-5-1-21-20-6-21-21"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-22",
+            "category": "logical",
+            "question": "Five people (P, Q, R, S, T). R is second left of S. P is at an end. Q is right of T. Who sits between Q and S?",
+            "options": {
+                "a": "P",
+                "b": "R",
+                "c": "T",
+                "d": "No one"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-23",
+            "category": "logical",
+            "question": "Sequence: 5, 14, 41, 122, ?. What is next?",
+            "options": {
+                "a": "365",
+                "b": "367",
+                "c": "363",
+                "d": "361"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-24",
+            "category": "logical",
+            "question": "Premises: All pens are pencils. Some pencils are erasers. Which conclusion is NOT possible?",
+            "options": {
+                "a": "Some pens are erasers",
+                "b": "No pens are erasers",
+                "c": "Some erasers are pencils",
+                "d": "All erasers are pens"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "L-25",
+            "category": "logical",
+            "question": "If 'WORLD' is '23-15-18-12-4', what is 'WATER'?",
+            "options": {
+                "a": "23-1-20-5-18",
+                "b": "23-1-20-5-19",
+                "c": "23-1-20-5-20",
+                "d": "23-1-20-5-2"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
         }
     ]
 }

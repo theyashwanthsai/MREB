@@ -74,6 +74,306 @@
             "metadata": {
                 "imagePath": ""
             }
+        },
+        {
+            "id": "E-6",
+            "category": "ethics",
+            "question": "An AI hiring tool shows higher rejection rates for candidates from certain regions. What's the most ethical response?",
+            "options": {
+                "a": "Audit and correct algorithmic bias before deployment",
+                "b": "Deploy but only for non-sensitive roles",
+                "c": "Continue using it to avoid human bias",
+                "d": "Ignore results and rely on human judgment"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-7",
+            "category": "ethics",
+            "question": "A city plans to use facial recognition to reduce crime. What ethical concern must be addressed first?",
+            "options": {
+                "a": "Ensuring public consent and privacy rights",
+                "b": "Maximizing crime detection efficiency",
+                "c": "Prioritizing minority group surveillance",
+                "d": "Reducing costs by automating policing"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-8",
+            "category": "ethics",
+            "question": "An AI system for autonomous weapons can engage targets without human oversight. What is the most ethical stance?",
+            "options": {
+                "a": "Deploy immediately to reduce soldier casualties",
+                "b": "Ban autonomous targeting entirely",
+                "c": "Require human override in final decisions",
+                "d": "Use it only in non-lethal scenarios"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-9",
+            "category": "ethics",
+            "question": "A healthcare AI uses patient data without explicit consent for research. What action aligns with ethical standards?",
+            "options": {
+                "a": "Proceed as data is anonymized",
+                "b": "Obtain retroactive consent",
+                "c": "Halt the research until consent is secured",
+                "d": "Share findings publicly to justify use"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-10",
+            "category": "ethics",
+            "question": "An AI's decision-making process is opaque. What is the most ethical requirement for its use in critical systems?",
+            "options": {
+                "a": "Ensure full transparency in decision logic",
+                "b": "Prioritize accuracy over explainability",
+                "c": "Use it only where transparency isn't required",
+                "d": "Trust developers to handle internal processes"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-11",
+            "category": "ethics",
+            "question": "An AI logistics system reduces costs by exploiting environmental regulations. What is the ethical priority?",
+            "options": {
+                "a": "Maximize profit regardless of environmental impact",
+                "b": "Prioritize environmental sustainability",
+                "c": "Follow regulations minimally to stay compliant",
+                "d": "Outsource environmental costs to third parties"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-12",
+            "category": "ethics",
+            "question": "An AI generates deepfake videos of political figures. What is the most responsible action?",
+            "options": {
+                "a": "Allow free creation to promote free speech",
+                "b": "Ban all deepfake technology",
+                "c": "Require watermarking and disclosure labels",
+                "d": "Only permit government use of deepfakes"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-13",
+            "category": "ethics",
+            "question": "An AI grades student essays, disadvantaging non-native speakers. What is the most ethical solution?",
+            "options": {
+                "a": "Ignore the bias to maintain objectivity",
+                "b": "Adjust the algorithm to account for linguistic diversity",
+                "c": "Replace AI grading with human evaluators",
+                "d": "Limit its use to native speakers"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-14",
+            "category": "ethics",
+            "question": "In autonomous cars, how should the AI prioritize between passenger and pedestrian safety in unavoidable accidents?",
+            "options": {
+                "a": "Prioritize passengers as users consent to the system",
+                "b": "Prioritize pedestrians to minimize overall harm",
+                "c": "Randomize to avoid ethical responsibility",
+                "d": "Reject programming such dilemmas into systems"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-15",
+            "category": "ethics",
+            "question": "A judicial AI recommends harsher sentences for marginalized communities. What is the most ethical response?",
+            "options": {
+                "a": "Accept results as data-driven",
+                "b": "Audit and correct for bias in training data",
+                "c": "Replace human judges with AI to avoid bias",
+                "d": "Use only for advisory purposes"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-16",
+            "category": "ethics",
+            "question": "Social media AI amplifies posts that incite violence but are technically legal. What action aligns with ethical responsibility?",
+            "options": {
+                "a": "Do nothing to avoid censorship accusations",
+                "b": "Remove all controversial content preemptively",
+                "c": "Develop nuanced policies to address harm potential",
+                "d": "Let algorithms prioritize engagement metrics"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-17",
+            "category": "ethics",
+            "question": "An AI generates art using copyrighted works. What is the most ethical approach to its distribution?",
+            "options": {
+                "a": "Profit from it since data is publicly available",
+                "b": "Credit original creators but monetize freely",
+                "c": "Avoid using copyrighted works without permission",
+                "d": "Claim fair use and proceed"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-18",
+            "category": "ethics",
+            "question": "Robot caregivers reduce elderly loneliness but may replace human interaction. What ethical consideration is paramount?",
+            "options": {
+                "a": "Maximize efficiency and cost savings",
+                "b": "Ensure human companionship remains primary",
+                "c": "Deploy widely to reduce caregiver shortages",
+                "d": "Ignore ethical concerns for technological progress"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-19",
+            "category": "ethics",
+            "question": "AI-powered credit scoring denies loans to minority groups. What is the ethical solution?",
+            "options": {
+                "a": "Accept outcomes as statistically valid",
+                "b": "Modify the system to eliminate discriminatory factors",
+                "c": "Use it only for majority group applicants",
+                "d": "Abandon AI in favor of human underwriting"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-20",
+            "category": "ethics",
+            "question": "An AI drone strike system can minimize civilian casualties but lacks human oversight. What is the most ethical choice?",
+            "options": {
+                "a": "Deploy to reduce military casualties",
+                "b": "Require human approval for all targets",
+                "c": "Use it only in high-risk zones",
+                "d": "Disable civilian detection to prioritize speed"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-21",
+            "category": "ethics",
+            "question": "Genetic engineering via AI could cure diseases but risks unintended consequences. What ethical principle should guide its use?",
+            "options": {
+                "a": "Proceed aggressively for potential benefits",
+                "b": "Ban all AI-driven genetic modifications",
+                "c": "Prioritize transparency and long-term safety",
+                "d": "Allow only for non-human applications"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-22",
+            "category": "ethics",
+            "question": "An AI news aggregator prioritizes sensational headlines, spreading misinformation. What is the ethical response?",
+            "options": {
+                "a": "Optimize for clicks regardless of accuracy",
+                "b": "Add fact-checking layers and reduce bias",
+                "c": "Remove all editorial responsibility",
+                "d": "Only show content from paid advertisers"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-23",
+            "category": "ethics",
+            "question": "A company collects biometric data without consent for AI training. What is the most ethical corrective action?",
+            "options": {
+                "a": "Continue using the data as it improves models",
+                "b": "Destroy the data and seek retroactive consent",
+                "c": "Share data with competitors for industry progress",
+                "d": "Anonymize it and proceed without disclosure"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-24",
+            "category": "ethics",
+            "question": "An AI identifies vulnerable users for targeted advertising. What ethical standard should govern its use?",
+            "options": {
+                "a": "Maximize ad revenue by exploiting user data",
+                "b": "Prohibit targeting based on vulnerability",
+                "c": "Allow it as users 'consented to terms of service'",
+                "d": "Only target users with high purchasing power"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
+        },
+        {
+            "id": "E-25",
+            "category": "ethics",
+            "question": "An AI system for border control flags individuals based on biased criteria. What is the ethical priority?",
+            "options": {
+                "a": "Deploy quickly to reduce entry delays",
+                "b": "Audit and remove discriminatory features",
+                "c": "Use it only for non-citizen screenings",
+                "d": "Trust the AI to reduce human bias"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": ""
+            }
         }
     ]
 }
