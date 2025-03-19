@@ -94,6 +94,405 @@
                 {"input": [[], [0]], "output": [0]}
             ],
             "metadata": {}
+        },
+        {
+            "id": "C-6",
+            "category": "coding",
+            "question": "Write a function to determine if a number is even or odd.",
+            "function_template": "def is_even(n: int) -> bool",
+            "test_cases": [
+                {"input": 4, "output": true},
+                {"input": 7, "output": false},
+                {"input": 0, "output": true},
+                {"input": -3, "output": false},
+                {"input": 2, "output": true},
+                {"input": 1, "output": false},
+                {"input": -2, "output": true},
+                {"input": 100, "output": true},
+                {"input": -100, "output": true},
+                {"input": 101, "output": false}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-7",
+            "category": "coding",
+            "question": "Count the number of vowels (a, e, i, o, u) in a string (case-insensitive).",
+            "function_template": "def count_vowels(s: str) -> int",
+            "test_cases": [
+                {"input": "Apple", "output": 2},
+                {"input": "aeiou", "output": 5},
+                {"input": "XYZ", "output": 0},
+                {"input": "Hello World", "output": 3},
+                {"input": "AEIOU", "output": 5},
+                {"input": "bcdfg", "output": 0},
+                {"input": "Quick brown fox", "output": 4},
+                {"input": "Python Programming", "output": 4},
+                {"input": " ", "output": 0},
+                {"input": "aA", "output": 2}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-8",
+            "category": "coding",
+            "question": "Reverse a list without using reverse() or slicing.",
+            "function_template": "def reverse_list(lst: list) -> list",
+            "test_cases": [
+                {"input": [1,2,3], "output": [3,2,1]},
+                {"input": [], "output": []},
+                {"input": [5], "output": [5]},
+                {"input": [4,3,2,1], "output": [1,2,3,4]},
+                {"input": [10], "output": [10]},
+                {"input": [5,6,7,8], "output": [8,7,6,5]},
+                {"input": ["a", "b", "c"], "output": ["c", "b", "a"]},
+                {"input": [true, false], "output": [false, true]},
+                {"input": ["hello", "world"], "output": ["world", "hello"]},
+                {"input": [[], [1]], "output": [[1], []]}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-9",
+            "category": "coding",
+            "question": "Return the larger of two integers.",
+            "function_template": "def max_of_two(a: int, b: int) -> int",
+            "test_cases": [
+                {"input": [5, 10], "output": 10},
+                {"input": [-3, -1], "output": -1},
+                {"input": [0, 0], "output": 0},
+                {"input": [100, 50], "output": 100},
+                {"input": [-5, 3], "output": 3},
+                {"input": [2, 2], "output": 2},
+                {"input": [15, -20], "output": 15},
+                {"input": [-10, -20], "output": -10},
+                {"input": [0, -1], "output": 0},
+                {"input": [5,5], "output": 5}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-10",
+            "category": "coding",
+            "question": "Calculate the sum of all numbers in a list.",
+            "function_template": "def sum_list(lst: list) -> int",
+            "test_cases": [
+                {"input": [1,2,3], "output": 6},
+                {"input": [-1,1], "output": 0},
+                {"input": [], "output": 0},
+                {"input": [10,20,30], "output": 60},
+                {"input": [-5,-5], "output": -10},
+                {"input": [0], "output": 0},
+                {"input": [3,3,3,3], "output": 12},
+                {"input": [100], "output": 100},
+                {"input": [2,4,6,8], "output": 20},
+                {"input": [-1, -2, -3], "output": -6}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-11",
+            "category": "coding",
+            "question": "Check if a number is between 1 and 100 inclusive.",
+            "function_template": "def is_in_range(n: int) -> bool",
+            "test_cases": [
+                {"input": 50, "output": true},
+                {"input": 101, "output": false},
+                {"input": 0, "output": false},
+                {"input": 1, "output": true},
+                {"input": 100, "output": true},
+                {"input": -5, "output": false},
+                {"input": 50, "output": true},
+                {"input": 99, "output": true},
+                {"input": 101, "output": false},
+                {"input": 50.5, "output": false}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-12",
+            "category": "coding",
+            "question": "Convert Celsius to Fahrenheit (°F = °C × 9/5 + 32).",
+            "function_template": "def celsius_to_fahrenheit(c: float) -> float",
+            "test_cases": [
+                {"input": 0.0, "output": 32.0},
+                {"input": 100.0, "output": 212.0},
+                {"input": -40.0, "output": -40.0},
+                {"input": 37.0, "output": 98.6},
+                {"input": 25.0, "output": 77.0},
+                {"input": -10.0, "output": 14.0},
+                {"input": 10.0, "output": 50.0},
+                {"input": 5.0, "output": 41.0},
+                {"input": 20.0, "output": 68.0},
+                {"input": 40.0, "output": 104.0}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-13",
+            "category": "coding",
+            "question": "Find the length of a string without using len().",
+            "function_template": "def string_length(s: str) -> int",
+            "test_cases": [
+                {"input": "hi", "output": 2},
+                {"input": "", "output": 0},
+                {"input": "Python!", "output": 7},
+                {"input": "a", "output": 1},
+                {"input": "12345", "output": 5},
+                {"input": "   ", "output": 3},
+                {"input": "Hello World", "output": 11},
+                {"input": "👍🌍", "output": 2},
+                {"input": "a b c", "output": 5},
+                {"input": "123!@#", "output": 6}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-14",
+            "category": "coding",
+            "question": "Return True if a list is empty.",
+            "function_template": "def is_empty(lst: list) -> bool",
+            "test_cases": [
+                {"input": [], "output": true},
+                {"input": [1], "output": false},
+                {"input": ["a"], "output": false},
+                {"input": [true], "output": false},
+                {"input": [0], "output": false},
+                {"input": [[]], "output": false},
+                {"input": ["none"], "output": false},
+                {"input": [" "], "output": false},
+                {"input": [1,2,3], "output": false},
+                {"input": [], "output": true}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-15",
+            "category": "coding",
+            "question": "Calculate area given length and width.",
+            "function_template": "def rectangle_area(length: int, width: int) -> int",
+            "test_cases": [
+                {"input": [3,4], "output": 12},
+                {"input": [5,5], "output": 25},
+                {"input": [0,10], "output": 0},
+                {"input": [1,1], "output": 1},
+                {"input": [10,2], "output": 20},
+                {"input": [7,3], "output": 21},
+                {"input": [2,6], "output": 12},
+                {"input": [4,5], "output": 20},
+                {"input": [9,9], "output": 81},
+                {"input": [15,2], "output": 30}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-16",
+            "category": "coding",
+            "question": "Determine if a year is a leap year (divisible by 4, but not 100 unless also 400).",
+            "function_template": "def is_leap_year(year: int) -> bool",
+            "test_cases": [
+                {"input": 2020, "output": true},
+                {"input": 1900, "output": false},
+                {"input": 2000, "output": true},
+                {"input": 2024, "output": true},
+                {"input": 1999, "output": false},
+                {"input": 2028, "output": true},
+                {"input": 1600, "output": true},
+                {"input": 1700, "output": false},
+                {"input": 2004, "output": true},
+                {"input": 1800, "output": false}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-17",
+            "category": "coding",
+            "question": "Count occurrences of an element in a list.",
+            "function_template": "def count_element(lst: list, elem) -> int",
+            "test_cases": [
+                {"input": [[1,2,2,3], 2], "output": 2},
+                {"input": [["a","a"], "b"], "output": 0},
+                {"input": [[5,5,5], 5], "output": 3},
+                {"input": [[], "apple"], "output": 0},
+                {"input": [[true, true, false], true], "output": 2},
+                {"input": [["apple", "banana", "apple"], "apple"], "output": 2},
+                {"input": [[1,1,2,3,4], 1], "output": 2},
+                {"input": [[-1, -1, -1], -1], "output": 3},
+                {"input": [[], 0], "output": 0},
+                {"input": [[3,3,3,3], 3], "output": 4}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-18",
+            "category": "coding",
+            "question": "Check if all elements in a list are the same.",
+            "function_template": "def all_same(lst: list) -> bool",
+            "test_cases": [
+                {"input": [5,5,5], "output": true},
+                {"input": [1,2,1], "output": false},
+                {"input": ["a","a","a"], "output": true},
+                {"input": [], "output": true},
+                {"input": [true, true], "output": true},
+                {"input": [0,0,0,0], "output": true},
+                {"input": ["same", "same"], "output": true},
+                {"input": [1,2,3,4], "output": false},
+                {"input": [5], "output": true},
+                {"input": [false, false, true], "output": false}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-19",
+            "category": "coding",
+            "question": "Repeat a string `n` times.",
+            "function_template": "def repeat_string(s: str, n: int) -> str",
+            "test_cases": [
+                {"input": ["ha", 3], "output": "hahaha"},
+                {"input": ["!", 0], "output": ""},
+                {"input": ["Hello", 2], "output": "HelloHello"},
+                {"input": ["a", 5], "output": "aaaaa"},
+                {"input": ["", 10], "output": ""},
+                {"input": ["*", -1], "output": ""},
+                {"input": ["Hi", 1], "output": "Hi"},
+                {"input": ["X", 3], "output": "XXX"},
+                {"input": ["123", 2], "output": "123123"},
+                {"input": ["Python", 0], "output": ""}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-20",
+            "category": "coding",
+            "question": "Find the smallest number in a list.",
+            "function_template": "def find_min(lst: list) -> int",
+            "test_cases": [
+                {"input": [5,1,8], "output": 1},
+                {"input": [-2,-5,0], "output": -5},
+                {"input": [10,20,30], "output": 10},
+                {"input": [3], "output": 3},
+                {"input": [-1, -2, -3], "output": -3},
+                {"input": [0,0,0], "output": 0},
+                {"input": [5,4,3,2,1], "output": 1},
+                {"input": [100, 50, 75], "output": 50},
+                {"input": [2,2,1], "output": 1},
+                {"input": [ -1, 0, 1], "output": -1}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-21",
+            "category": "coding",
+            "question": "Check if a character is a vowel.",
+            "function_template": "def is_vowel(c: str) -> bool",
+            "test_cases": [
+                {"input": "a", "output": true},
+                {"input": "b", "output": false},
+                {"input": "E", "output": true},
+                {"input": "y", "output": false},
+                {"input": "i", "output": true},
+                {"input": "o", "output": true},
+                {"input": "U", "output": true},
+                {"input": " ", "output": false},
+                {"input": "z", "output": false},
+                {"input": "A", "output": true}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-22",
+            "category": "coding",
+            "question": "Compute the average of numbers in a list.",
+            "function_template": "def average(lst: list) -> float",
+            "test_cases": [
+                {"input": [2,4,6], "output": 4.0},
+                {"input": [5], "output": 5.0},
+                {"input": [1,2,3,4,5], "output": 3.0},
+                {"input": [-1,0,1], "output": 0.0},
+                {"input": [10,20], "output": 15.0},
+                {"input": [5,5,5], "output": 5.0},
+                {"input": [0,0,0], "output": 0.0},
+                {"input": [3,3,3,3], "output": 3.0},
+                {"input": [2.5, 3.5], "output": 3.0},
+                {"input": [100], "output": 100.0}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-23",
+            "category": "coding",
+            "question": "Reverse the order of words in a sentence.",
+            "function_template": "def reverse_sentence(s: str) -> str",
+            "test_cases": [
+                {"input": "Hello World", "output": "World Hello"},
+                {"input": "This is a test", "output": "test a is This"},
+                {"input": "one", "output": "one"},
+                {"input": "  spaces  ", "output": "  spaces  "},
+                {"input": "a b c d", "output": "d c b a"},
+                {"input": "Python is fun", "output": "fun is Python"},
+                {"input": "  Leading trailing  ", "output": " trailing  Leading"},
+                {"input": "Hi there!", "output": "there! Hi"},
+                {"input": "racecar", "output": "racecar"},
+                {"input": "The quick brown fox", "output": "fox brown quick The"}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-24",
+            "category": "coding",
+            "question": "Check if string A is a substring of string B.",
+            "function_template": "def is_substring(a: str, b: str) -> bool",
+            "test_cases": [
+                {"input": ["cat", "category"], "output": true},
+                {"input": ["dog", "cat"], "output": false},
+                {"input": ["", "any"], "output": true},
+                {"input": ["Hello", "Hello World"], "output": true},
+                {"input": ["world", "Hello World"], "output": true},
+                {"input": ["Python", "Python is fun"], "output": true},
+                {"input": ["abc", "abcd"], "output": true},
+                {"input": ["123", "abc123def"], "output": true},
+                {"input": ["XYZ", "xyz"], "output": false},
+                {"input": ["substring", "substringtest"], "output": true}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-25",
+            "category": "coding",
+            "question": "Return elements in list1 not in list2.",
+            "function_template": "def list_difference(l1: list, l2: list) -> list",
+            "test_cases": [
+                {"input": [[1,2], [2]], "output": [1]},
+                {"input": [[5,6,7], [5]], "output": [6,7]},
+                {"input": [[], [1,2]], "output": []},
+                {"input": [[1,3,5], [2,4]], "output": [1,3,5]},
+                {"input": [["a","b"], ["b","c"]], "output": ["a"]},
+                {"input": [[true, false], [false]], "output": [true]},
+                {"input": [[10,20,30], [20,30,40]], "output": [10]},
+                {"input": [[], []], "output": []},
+                {"input": [[3,3,3], [3]], "output": []},
+                {"input": [[-1,0,1], [-1]], "output": [0,1]}
+            ],
+            "metadata": {}
+        },
+        {
+            "id": "C-26",
+            "category": "coding",
+            "question": "Sum all digits of a number.",
+            "function_template": "def sum_digits(n: int) -> int",
+            "test_cases": [
+                {"input": 123, "output": 6},
+                {"input": -456, "output": 15},
+                {"input": 0, "output": 0},
+                {"input": 9999, "output": 36},
+                {"input": 505, "output": 10},
+                {"input": -101, "output": 2},
+                {"input": 738, "output": 18},
+                {"input": 1111, "output": 4},
+                {"input": -222, "output": 6},
+                {"input": 8912, "output": 20}
+            ],
+            "metadata": {}
         }
     ]
 }
