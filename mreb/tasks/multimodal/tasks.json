@@ -74,6 +74,306 @@
             "metadata": {
                 "imagePath": "../mreb/images/mm5.jpeg"
             }
+        },
+        {
+            "id": "MM-6",
+            "category": "multimodal",
+            "question": "What kitchen appliance is shown in this image?",
+            "options": {
+                "a": "Toaster",
+                "b": "Microwave",
+                "c": "Coffee maker",
+                "d": "Blender"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": "../mreb/images/mm6.jpg"
+            }
+        },
+        {
+            "id": "MM-7",
+            "category": "multimodal",
+            "question": "Which geographic region does this satellite image depict?",
+            "options": {
+                "a": "Grand Canyon",
+                "b": "Sahara Desert",
+                "c": "Mojave Desert",
+                "d": "Atacama Desert"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": "../mreb/images/mm7.jpg"
+            }
+        },
+        {
+            "id": "MM-8",
+            "category": "multimodal",
+            "question": "What does this X-ray indicate?",
+            "options": {
+                "a": "Femur",
+                "b": "Lung tumor",
+                "c": "Arthritis",
+                "d": "Pneumothorax"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": "../mreb/images/mm8.jpg"
+            }
+        },
+        {
+            "id": "MM-9",
+            "category": "multimodal",
+            "question": "What emotion is conveyed by this abstract painting?",
+            "options": {
+                "a": "Excitement",
+                "b": "Anxiety",
+                "c": "Nostalgia",
+                "d": "Serenity"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": "../mreb/images/mm9.jpg"
+            }
+        },
+        {
+            "id": "MM-10",
+            "category": "multimodal",
+            "question": "What is the primary activity in this street scene?",
+            "options": {
+                "a": "Construction work",
+                "b": "Street performance",
+                "c": "Protest march",
+                "d": "Food market"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": "../mreb/images/mm10.jpg"
+            }
+        },
+        {
+            "id": "MM-11",
+            "category": "multimodal",
+            "question": "Identify the electronic device shown",
+            "options": {
+                "a": "Smartphone",
+                "b": "Tablet",
+                "c": "Laptop",
+                "d": "E-reader"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": "../mreb/images/mm11.jpg"
+            }
+        },
+        {
+            "id": "MM-12",
+            "category": "multimodal",
+            "question": "What celestial phenomenon is depicted?",
+            "options": {
+                "a": "Aurora Borealis",
+                "b": "Solar eclipse",
+                "c": "Star cluster",
+                "d": "Meteor shower"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": "../mreb/images/mm12.jpg"
+            }
+        },
+        {
+            "id": "MM-13",
+            "category": "multimodal",
+            "question": "What is the main subject of this microscopic image?",
+            "options": {
+                "a": "Bacteria colony",
+                "b": "Human cell",
+                "c": "Plant pollen",
+                "d": "Insect wing"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": "../mreb/images/mm13.jpg"
+            }
+        },
+        {
+            "id": "MM-14",
+            "category": "multimodal",
+            "question": "What is the primary mode of transportation shown?",
+            "options": {
+                "a": "Electric car",
+                "b": "High-speed train",
+                "c": "Bicycle",
+                "d": "Sailboat"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": "../mreb/images/mm14.jpg"
+            }
+        },
+        {
+            "id": "MM-15",
+            "category": "multimodal",
+            "question": "What architectural style does this building exemplify?",
+            "options": {
+                "a": "Gothic",
+                "b": "Modernist",
+                "c": "Baroque",
+                "d": "Art Deco"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": "../mreb/images/mm15.jpg"
+            }
+        },
+        {
+            "id": "MM-16",
+            "category": "multimodal",
+            "question": "What weather phenomenon is shown in this image?",
+            "options": {
+                "a": "Hurricane",
+                "b": "Snowstorm",
+                "c": "Sandstorm",
+                "d": "Thunderstorm"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": "../mreb/images/mm16.jpg"
+            }
+        },
+        {
+            "id": "MM-17",
+            "category": "multimodal",
+            "question": "What sport is being played in this scene?",
+            "options": {
+                "a": "Soccer",
+                "b": "Rugby",
+                "c": "American football",
+                "d": "Cricket"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": "../mreb/images/mm17.jpg"
+            }
+        },
+        {
+            "id": "MM-18",
+            "category": "multimodal",
+            "question": "What is the main component of this mechanical system?",
+            "options": {
+                "a": "Gear assembly",
+                "b": "Electrical circuit",
+                "c": "Piston engine",
+                "d": "Robot arm"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": "../mreb/images/mm18.jpg"
+            }
+        },
+        {
+            "id": "MM-19",
+            "category": "multimodal",
+            "question": "What is the primary material in this traditional craft?",
+            "options": {
+                "a": "Clay pottery",
+                "b": "Wood carving",
+                "c": "Woven basket",
+                "d": "Metal forging"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": "../mreb/images/mm19.jpg"
+            }
+        },
+        {
+            "id": "MM-20",
+            "category": "multimodal",
+            "question": "What is the main subject of this wildlife photograph?",
+            "options": {
+                "a": "Polar bear",
+                "b": "Giraffe",
+                "c": "Humpback whale",
+                "d": "Siberian tiger"
+            },
+            "answer": "d",
+            "metadata": {
+                "imagePath": "../mreb/images/mm20.jpg"
+            }
+        },
+        {
+            "id": "MM-21",
+            "category": "multimodal",
+            "question": "What is the primary function of this laboratory equipment?",
+            "options": {
+                "a": "DNA sequencing",
+                "b": "Microscopy",
+                "c": "Chemical synthesis",
+                "d": "Spectroscopy"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": "../mreb/images/mm21.jpg"
+            }
+        },
+        {
+            "id": "MM-22",
+            "category": "multimodal",
+            "question": "What is the main feature of this architectural facade?",
+            "options": {
+                "a": "Flying buttresses",
+                "b": "Brick masonry",
+                "c": "Glass curtain wall",
+                "d": "Stained glass windows"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": "../mreb/images/mm22.jpg"
+            }
+        },
+        {
+            "id": "MM-23",
+            "category": "multimodal",
+            "question": "What is the primary purpose of this industrial structure?",
+            "options": {
+                "a": "Wind turbine",
+                "b": "Oil rig",
+                "c": "Solar farm",
+                "d": "Hydroelectric dam"
+            },
+            "answer": "a",
+            "metadata": {
+                "imagePath": "../mreb/images/mm23.jpg"
+            }
+        },
+        {
+            "id": "MM-24",
+            "category": "multimodal",
+            "question": "What emotion is conveyed by this portrait?",
+            "options": {
+                "a": "Contentment",
+                "b": "Determination",
+                "c": "Melancholy",
+                "d": "Curiosity"
+            },
+            "answer": "b",
+            "metadata": {
+                "imagePath": "../mreb/images/mm24.jpg"
+            }
+        },
+        {
+            "id": "MM-25",
+            "category": "multimodal",
+            "question": "What is the main subject of this astronomical image?",
+            "options": {
+                "a": "Milky Way galaxy",
+                "b": "Andromeda galaxy",
+                "c": "Orion Nebula",
+                "d": "Horsehead Nebula"
+            },
+            "answer": "c",
+            "metadata": {
+                "imagePath": "../mreb/images/mm25.jpg"
+            }
         }
     ]
 }
