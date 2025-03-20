@@ -474,25 +474,6 @@
                 {"input": [[-1,0,1], [-1]], "output": [0,1]}
             ],
             "metadata": {}
-        },
-        {
-            "id": "C-26",
-            "category": "coding",
-            "question": "Sum all digits of a number.",
-            "function_template": "def sum_digits(n: int) -> int",
-            "test_cases": [
-                {"input": 123, "output": 6},
-                {"input": -456, "output": 15},
-                {"input": 0, "output": 0},
-                {"input": 9999, "output": 36},
-                {"input": 505, "output": 10},
-                {"input": -101, "output": 2},
-                {"input": 738, "output": 18},
-                {"input": 1111, "output": 4},
-                {"input": -222, "output": 6},
-                {"input": 8912, "output": 20}
-            ],
-            "metadata": {}
         }
     ]
 }

@@ -26,11 +26,12 @@ Model Name | Code Score | Logic Score | Ethics Score | Multimodal Score | Overal
 ## Todo
 - [x] Add code tasks
 - [x] Add multimodal tasks
-- [ ] Add more tasks in logical and ethics
+- [x] Add more tasks in logical and ethics
 - [x] Evaluation script should account for multiple categories.
-- [ ] Add readme for each category.
+- [x] Add readme for each category.
 - [ ] Blog must include graphs and charts along with leaderboards.
-
+- [ ] Add logic to write the results in a file
+- [ ] Add logic to automatically create visuals using plotly
 
 ## 📝 License
 

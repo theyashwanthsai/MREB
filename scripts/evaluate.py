@@ -1,7 +1,7 @@
 from utils import *
 
-# models_to_test = ["llava:latest"] # testing
-models_to_test = ["llama3.2:1b", "llama3.2:3b", "phi3.5:latest", "deepseek-r1:8b"]
+models_to_test = ["gemma3", "llava:latest"] # testing
+# models_to_test = ["llama3.2:1b", "llama3.2:3b", "phi3.5:latest", "deepseek-r1:8b"]
 
 ## Todo: Add a way to test only text models and multimodal models at the same time.
 
@@ -11,6 +11,7 @@ logic_file_path = "../mreb/tasks/logical/tasks.json"
 multimodal_file_path = "../mreb/tasks/multimodal/tasks.json"
 
 def main():
+
     # Run evaluation for ethics (MCQ) questions
     print("\n=== EVALUATING ETHICS QUESTIONS ===")
     ethics_questions = load_questions(ethics_file_path)
@@ -23,17 +24,18 @@ def main():
     if logic_questions:
         evaluate_questions(logic_questions, models_to_test)
     
-    # Run evaluation for coding questions
-    print("\n=== EVALUATING CODING QUESTIONS ===")
-    coding_questions = load_questions(coding_file_path)
-    if coding_questions:
-        evaluate_questions(coding_questions, models_to_test)
-
     # Run evaluation for multimodal questions
     print("\n=== EVALUATING MULTIMODAL QUESTIONS ===")
     multimodal_questions = load_questions(multimodal_file_path)
     if multimodal_questions:
         evaluate_questions(multimodal_questions, models_to_test)
+
+        # Run evaluation for coding questions
+    print("\n=== EVALUATING CODING QUESTIONS ===")
+    coding_questions = load_questions(coding_file_path)
+    if coding_questions:
+        evaluate_questions(coding_questions, models_to_test)
+
 
 if __name__ == "__main__":
     main()
