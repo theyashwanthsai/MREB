@@ -194,7 +194,6 @@ def evaluate_questions(questions, models):
 
 def save_detailed_breakdown(results, category):
     """Save detailed question-by-question breakdown to markdown file with side-by-side model comparison"""
-    print(results)
     output_dir = "Results"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -253,6 +252,27 @@ def save_detailed_breakdown(results, category):
                     row += f" {detail['status']} |"
                 f.write(row + "\n")
 
+    json_data = {
+        "category": category,
+        "models": {}
+    }
+
+    for model, model_result in results.items():
+        total = model_result["total"]
+        correct = model_result["correct"]
+        accuracy = (correct / total * 100) if total else 0.0
+        model_entry = {
+            "total": total,
+            "correct": correct,
+            "accuracy": round(accuracy, 2),
+        }
+        json_data["models"][model] = model_entry
+
+    json_path = os.path.join(output_dir, f"{category}_results.json")
+    with open(json_path, 'w') as json_f:
+        json.dump(json_data, json_f, indent=4, default=str)
+
     print(f"Detailed breakdown saved to {filepath}")
+    print(f"JSON results saved to {json_path}")
 
 

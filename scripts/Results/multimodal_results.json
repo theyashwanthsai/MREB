@@ -1,0 +1,15 @@
+{
+    "category": "multimodal",
+    "models": {
+        "gemma3": {
+            "total": 25,
+            "correct": 20,
+            "accuracy": 80.0
+        },
+        "llava:latest": {
+            "total": 25,
+            "correct": 20,
+            "accuracy": 80.0
+        }
+    }
+}

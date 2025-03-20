@@ -1,0 +1,15 @@
+{
+    "category": "logical",
+    "models": {
+        "gemma3": {
+            "total": 25,
+            "correct": 15,
+            "accuracy": 60.0
+        },
+        "llava:latest": {
+            "total": 25,
+            "correct": 12,
+            "accuracy": 48.0
+        }
+    }
+}

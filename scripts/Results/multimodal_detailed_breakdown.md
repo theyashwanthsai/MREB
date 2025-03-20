@@ -5,7 +5,7 @@
 | Model | Score | Correct/Total |
 |-------|--------|---------------|
 | GEMMA3 | 80.00% | 20/25 |
-| LLAVA:LATEST | 84.00% | 21/25 |
+| LLAVA:LATEST | 80.00% | 20/25 |
 
 ### Question-by-Question Comparison
 
@@ -24,7 +24,7 @@
 | MM-19 | ✅ | ✅ |
 | MM-2 | ❌ (Correct: b) | ❌ (Correct: b) |
 | MM-20 | ✅ | ✅ |
-| MM-21 | ✅ | ✅ |
+| MM-21 | ✅ | ❌ (Correct: b) |
 | MM-22 | ✅ | ✅ |
 | MM-23 | ✅ | ✅ |
 | MM-24 | ❌ (Correct: b) | ❌ (Correct: b) |
@@ -32,7 +32,7 @@
 | MM-3 | ❌ (Correct: a) | ❌ (Correct: a) |
 | MM-4 | ✅ | ✅ |
 | MM-5 | ✅ | ✅ |
-| MM-6 | ✅ | ✅ |
+| MM-6 | ✅ | ❌ (Correct: a) |
 | MM-7 | ✅ | ✅ |
-| MM-8 | ❌ (Correct: a) | ❌ (Correct: a) |
+| MM-8 | ❌ (Correct: a) | ✅ |
 | MM-9 | ✅ | ✅ |
