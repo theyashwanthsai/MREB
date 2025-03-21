@@ -6,13 +6,51 @@ Multimodal Reasoning and Ethics Benchmark (MREB) is an open source benchmark des
 - Youtube Video: tbd 
 
 
-MREB provides a standardized way to evaluate LLMs by:
-- Testing cross-domain capabilities
-- Providing consistent scoring metrics
-- Enabling fair comparison between different models
-- Focusing on practical, real-world applications
+There are 4 categories in MREB. Each category currently has 25 tasks. Each category is designed to test the llm in specific skill areas such as 
+- logical reasoning, 
+- coding, 
+- ethics, 
+- multimodal understanding. 
+
 
 The fun part? All of the llms are run locally on my pc. Check more about my pc building experience [here](https://saiyashwanth.tech/pcbuild)
+
+
+## How to run?
+
+- Clone the repository:
+
+
+```bash
+git clone https://github.com/theyashwanthsai/MREB
+cd MREB
+```
+
+
+- Install required dependencies:
+
+
+```bash
+pip install -r requirements.txt
+```
+
+
+- Add the names of the llm models in `scripts/evaluation.py`
+
+
+
+- Run the evaluation script:
+
+
+```bash
+chmod +x run_eval.sh
+./run_eval.sh
+```
+
+
+Note: Make sure you have Ollama installed and running locally before executing the evaluation script. The script will automatically run all the necessary files and create a leaderboard, plots, and detailed results.
+
+
 
 ## How does it work?
 There are 4 categories - Logical, Coding, Ethics, Multimodal. Each category is to test an llm in that skill/space. Currently there are 25 tasks in each. The goal is to expand them to 120, with different difficulty types. 
@@ -21,22 +59,31 @@ Here’s a glimpse of the categories and example tasks:
 
 #### Code Score
 - Example Task:
+
+
 !["Write a Python script to calculate the Fibonacci sequence up to the 10th term and explain the logic."](./images/coding.png)
 
 
 #### Logic Score
 - Example Task:
+
+
 !["Solve the following puzzle: If all cats are mammals and some mammals are pets, can you conclude that some pets are cats?"](./images/logic.png)
 
 
 #### Ethics Score
 - Example Task:
+
+
 !["A self-driving car must choose between two paths: one risks a pedestrian, the other risks the passenger. What ethical principles should guide its decision?"](./images/ethics.png)
 
 
 #### Multimodal Score
 - Example Task:
+
+
 !["Analyze this image of a weather chart and a text summary of climate data. Explain how they contradict each other."](./images/multimodal.png)
+
 
 
 

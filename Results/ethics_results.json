@@ -5,11 +5,6 @@
             "total": 25,
             "correct": 21,
             "accuracy": 84.0
-        },
-        "llava:latest": {
-            "total": 25,
-            "correct": 22,
-            "accuracy": 88.0
         }
     }
 }

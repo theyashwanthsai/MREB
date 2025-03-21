@@ -1,14 +1,14 @@
 from utils import *
 
-models_to_test = ["gemma3", "llava:latest"] # testing
-# models_to_test = ["llama3.2:1b", "llama3.2:3b", "phi3.5:latest", "deepseek-r1:8b"]
+models_to_test = ["gemma3:latest", "gemma3:12b", "llama3.2-vision:latest", "llava:latest", "llava-llama3:latest",  ]
+
 
 ## Todo: Add a way to test only text models and multimodal models at the same time.
 
-ethics_file_path = "../mreb/tasks/ethics/tasks.json"
-coding_file_path = "../mreb/tasks/code/tasks.json"
-logic_file_path = "../mreb/tasks/logical/tasks.json"
-multimodal_file_path = "../mreb/tasks/multimodal/tasks.json"
+ethics_file_path = "./mreb/tasks/ethics/tasks.json"
+coding_file_path = "./mreb/tasks/code/tasks.json"
+logic_file_path = "./mreb/tasks/logical/tasks.json"
+multimodal_file_path = "./mreb/tasks/multimodal/tasks.json"
 
 def main():
 

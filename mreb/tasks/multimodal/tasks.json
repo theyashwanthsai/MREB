@@ -12,7 +12,7 @@
             },
             "answer": "d",
             "metadata": {
-                "imagePath": "../mreb/images/mm1.jpeg"
+                "imagePath": "./mreb/images/mm1.jpeg"
             }
         },
         {
@@ -27,7 +27,7 @@
             },
             "answer": "b",
             "metadata": {
-                "imagePath": "../mreb/images/mm2.jpg"
+                "imagePath": "./mreb/images/mm2.jpg"
             }
         },
         {
@@ -42,7 +42,7 @@
             },
             "answer": "a",
             "metadata": {
-                "imagePath": "../mreb/images/mm3.jpg"
+                "imagePath": "./mreb/images/mm3.jpg"
             }
         },
         {
@@ -57,7 +57,7 @@
             },
             "answer": "b",
             "metadata": {
-                "imagePath": "../mreb/images/mm4.jpg"
+                "imagePath": "./mreb/images/mm4.jpg"
             }
         },
         {
@@ -72,7 +72,7 @@
             },
             "answer": "b",
             "metadata": {
-                "imagePath": "../mreb/images/mm5.jpeg"
+                "imagePath": "./mreb/images/mm5.jpeg"
             }
         },
         {
@@ -87,7 +87,7 @@
             },
             "answer": "a",
             "metadata": {
-                "imagePath": "../mreb/images/mm6.jpg"
+                "imagePath": "./mreb/images/mm6.jpg"
             }
         },
         {
@@ -102,7 +102,7 @@
             },
             "answer": "b",
             "metadata": {
-                "imagePath": "../mreb/images/mm7.jpg"
+                "imagePath": "./mreb/images/mm7.jpg"
             }
         },
         {
@@ -117,7 +117,7 @@
             },
             "answer": "a",
             "metadata": {
-                "imagePath": "../mreb/images/mm8.jpg"
+                "imagePath": "./mreb/images/mm8.jpg"
             }
         },
         {
@@ -132,7 +132,7 @@
             },
             "answer": "d",
             "metadata": {
-                "imagePath": "../mreb/images/mm9.jpg"
+                "imagePath": "./mreb/images/mm9.jpg"
             }
         },
         {
@@ -147,7 +147,7 @@
             },
             "answer": "d",
             "metadata": {
-                "imagePath": "../mreb/images/mm10.jpg"
+                "imagePath": "./mreb/images/mm10.jpg"
             }
         },
         {
@@ -162,7 +162,7 @@
             },
             "answer": "a",
             "metadata": {
-                "imagePath": "../mreb/images/mm11.jpg"
+                "imagePath": "./mreb/images/mm11.jpg"
             }
         },
         {
@@ -177,7 +177,7 @@
             },
             "answer": "a",
             "metadata": {
-                "imagePath": "../mreb/images/mm12.jpg"
+                "imagePath": "./mreb/images/mm12.jpg"
             }
         },
         {
@@ -192,7 +192,7 @@
             },
             "answer": "c",
             "metadata": {
-                "imagePath": "../mreb/images/mm13.jpg"
+                "imagePath": "./mreb/images/mm13.jpg"
             }
         },
         {
@@ -207,7 +207,7 @@
             },
             "answer": "b",
             "metadata": {
-                "imagePath": "../mreb/images/mm14.jpg"
+                "imagePath": "./mreb/images/mm14.jpg"
             }
         },
         {
@@ -222,7 +222,7 @@
             },
             "answer": "d",
             "metadata": {
-                "imagePath": "../mreb/images/mm15.jpg"
+                "imagePath": "./mreb/images/mm15.jpg"
             }
         },
         {
@@ -237,7 +237,7 @@
             },
             "answer": "c",
             "metadata": {
-                "imagePath": "../mreb/images/mm16.jpg"
+                "imagePath": "./mreb/images/mm16.jpg"
             }
         },
         {
@@ -252,7 +252,7 @@
             },
             "answer": "d",
             "metadata": {
-                "imagePath": "../mreb/images/mm17.jpg"
+                "imagePath": "./mreb/images/mm17.jpg"
             }
         },
         {
@@ -267,7 +267,7 @@
             },
             "answer": "a",
             "metadata": {
-                "imagePath": "../mreb/images/mm18.jpg"
+                "imagePath": "./mreb/images/mm18.jpg"
             }
         },
         {
@@ -282,7 +282,7 @@
             },
             "answer": "c",
             "metadata": {
-                "imagePath": "../mreb/images/mm19.jpg"
+                "imagePath": "./mreb/images/mm19.jpg"
             }
         },
         {
@@ -297,7 +297,7 @@
             },
             "answer": "d",
             "metadata": {
-                "imagePath": "../mreb/images/mm20.jpg"
+                "imagePath": "./mreb/images/mm20.jpg"
             }
         },
         {
@@ -312,7 +312,7 @@
             },
             "answer": "b",
             "metadata": {
-                "imagePath": "../mreb/images/mm21.jpg"
+                "imagePath": "./mreb/images/mm21.jpg"
             }
         },
         {
@@ -327,7 +327,7 @@
             },
             "answer": "c",
             "metadata": {
-                "imagePath": "../mreb/images/mm22.jpg"
+                "imagePath": "./mreb/images/mm22.jpg"
             }
         },
         {
@@ -342,7 +342,7 @@
             },
             "answer": "a",
             "metadata": {
-                "imagePath": "../mreb/images/mm23.jpg"
+                "imagePath": "./mreb/images/mm23.jpg"
             }
         },
         {
@@ -357,7 +357,7 @@
             },
             "answer": "b",
             "metadata": {
-                "imagePath": "../mreb/images/mm24.jpg"
+                "imagePath": "./mreb/images/mm24.jpg"
             }
         },
         {
@@ -372,7 +372,7 @@
             },
             "answer": "c",
             "metadata": {
-                "imagePath": "../mreb/images/mm25.jpg"
+                "imagePath": "./mreb/images/mm25.jpg"
             }
         }
     ]
