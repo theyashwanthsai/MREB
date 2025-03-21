@@ -3,7 +3,7 @@ Multimodal Reasoning and Ethics Benchmark (MREB) is an open source benchmark des
 
 ### Resources:
 - Blog post: [Link](https://saiyashwanth.tech/mreb)
-- Youtube Video: tbd 
+- Youtube Video: [Link](https://youtu.be/mquVt7PJFxU?si=M7ZQqHXSL0RkZVHP)
 
 
 There are 4 categories in MREB. Each category currently has 25 tasks. Each category is designed to test the llm in specific skill areas such as 
@@ -57,8 +57,8 @@ pip install -r requirements.txt
 
 
 ```bash
-chmod +x run_eval.sh
-./run_eval.sh
+chmod +x eval.sh
+./eval.sh
 ```
 
 
@@ -107,9 +107,12 @@ Currently, few available vision-capable models in Ollama's ecosystem have been t
 
 
 ## Todo
+#### Future:
 - [ ] Add async
 - [ ] Expand tasks from 25 to 120 for each category.
 - [ ] Add difficulty levels for tasks
+
+#### Current tasks
 - [x] Add code tasks
 - [x] Add multimodal tasks
 - [x] Add more tasks in logical and ethics
