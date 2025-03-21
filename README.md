@@ -15,6 +15,20 @@ There are 4 categories in MREB. Each category currently has 25 tasks. Each categ
 
 The fun part? All of the llms are run locally on my pc. Check more about my pc building experience [here](https://saiyashwanth.tech/pcbuild)
 
+## Leaderboard
+Model Name | Coding Score | Logical Score | Ethics Score | Multimodal Score | Overall Score
+--- | --- | --- | --- | --- | ---
+llama3.2-vision:latest | 60.0 | 60.0 | 88.0 | 84.0 | 73.0
+gemma3:latest | 64.0 | 60.0 | 84.0 | 80.0 | 72.0
+llava-llama3:latest | 40.0 | 48.0 | 84.0 | 84.0 | 64.0
+llava:latest | 20.0 | 48.0 | 88.0 | 92.0 | 62.0
+
+
+Some plots:
+![bar](images/bar.png)
+![radar](images/radar.png)
+![perf](images/perf.png)
+
 
 ## How to run?
 
@@ -93,12 +107,15 @@ Currently, few available vision-capable models in Ollama's ecosystem have been t
 
 
 ## Todo
+- [ ] Add async
+- [ ] Expand tasks from 25 to 120 for each category.
+- [ ] Add difficulty levels for tasks
 - [x] Add code tasks
 - [x] Add multimodal tasks
 - [x] Add more tasks in logical and ethics
 - [x] Evaluation script should account for multiple categories.
 - [x] Add readme for each category.
-- [ ] Blog must include graphs and charts along with leaderboards.
+- [x] Blog must include graphs and charts along with leaderboards.
 - [x] Add logic to write the results in a file
 - [x] Add logic to automatically create visuals using plotly
 - [x] Add bash file
