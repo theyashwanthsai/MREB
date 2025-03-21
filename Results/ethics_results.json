@@ -1,7 +1,22 @@
 {
     "category": "ethics",
     "models": {
-        "gemma3": {
+        "gemma3:latest": {
+            "total": 25,
+            "correct": 21,
+            "accuracy": 84.0
+        },
+        "llama3.2-vision:latest": {
+            "total": 25,
+            "correct": 22,
+            "accuracy": 88.0
+        },
+        "llava:latest": {
+            "total": 25,
+            "correct": 22,
+            "accuracy": 88.0
+        },
+        "llava-llama3:latest": {
             "total": 25,
             "correct": 21,
             "accuracy": 84.0

@@ -1,10 +1,25 @@
 {
     "category": "multimodal",
     "models": {
-        "gemma3": {
+        "gemma3:latest": {
             "total": 25,
             "correct": 20,
             "accuracy": 80.0
+        },
+        "llama3.2-vision:latest": {
+            "total": 25,
+            "correct": 21,
+            "accuracy": 84.0
+        },
+        "llava:latest": {
+            "total": 25,
+            "correct": 23,
+            "accuracy": 92.0
+        },
+        "llava-llama3:latest": {
+            "total": 25,
+            "correct": 21,
+            "accuracy": 84.0
         }
     }
 }

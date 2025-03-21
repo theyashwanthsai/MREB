@@ -101,7 +101,7 @@ Currently, few available vision-capable models in Ollama's ecosystem have been t
 - [ ] Blog must include graphs and charts along with leaderboards.
 - [x] Add logic to write the results in a file
 - [x] Add logic to automatically create visuals using plotly
-- [ ] Add bash file
+- [x] Add bash file
 
 ## 📝 License
 

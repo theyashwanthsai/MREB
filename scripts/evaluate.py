@@ -1,6 +1,6 @@
 from utils import *
 
-models_to_test = ["gemma3:latest", "gemma3:12b", "llama3.2-vision:latest", "llava:latest", "llava-llama3:latest",  ]
+models_to_test = ["gemma3:latest", "llama3.2-vision:latest", "llava:latest", "llava-llama3:latest",  ]
 
 
 ## Todo: Add a way to test only text models and multimodal models at the same time.
